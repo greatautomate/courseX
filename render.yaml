@@ -2,10 +2,10 @@ services:
   # Background worker service for the Telegram bot
   - type: worker
     name: medusa-course-bot
-    plan: free
+    plan: starter
     env: docker
     dockerfilePath: Dockerfile
-    repo: https://github.com/your-username/medusaCourse  # Update with your actual repo
+    repo: https://github.com/greatautomate/courseX  # Update with your actual repo
     branch: main
     autoDeploy: false
     dockerCommand: python3 main.py
