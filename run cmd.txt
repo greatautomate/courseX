@@ -1,0 +1,2 @@
+# For local development and Docker:
+python3 main.py
