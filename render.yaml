@@ -22,7 +22,7 @@ services:
       - key: OWNER
         value: "0"  # Set to 0 by default, configure in dashboard
       - key: CREDIT
-        value: "𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎"
+        value: "ミ★ medusaXD ★彡"
       - key: AUTH_USERS
         value: "0"  # Comma-separated list of authorized user IDs
 
