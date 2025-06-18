@@ -20,11 +20,11 @@ services:
 
       # Optional Configuration
       - key: OWNER
-        value: "0"  # Set to 0 by default, configure in dashboard
+        value: "7527795504"  # Set to 0 by default, configure in dashboard
       - key: CREDIT
         value: "ミ★ medusaXD ★彡"
       - key: AUTH_USERS
-        value: "0"  # Comma-separated list of authorized user IDs
+        value: "7527795504"  # Comma-separated list of authorized user IDs
 
       # Bot Configuration (no server needed)
       - key: WEBHOOK
