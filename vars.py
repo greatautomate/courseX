@@ -14,7 +14,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 # Optional environment variables with defaults
 OWNER = int(environ.get("OWNER", "0"))  # Default to 0 if not set
-CREDIT = environ.get("CREDIT", "𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎")
+CREDIT = environ.get("CREDIT", "ミ★ medusaXD ★彡")
 
 # Auth users configuration
 AUTH_USER = os.environ.get('AUTH_USERS', str(OWNER)).split(',')
