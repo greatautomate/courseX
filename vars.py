@@ -25,7 +25,7 @@ if OWNER and OWNER not in AUTH_USERS:
     AUTH_USERS.append(OWNER)
 
 # Server configuration
-PORT = int(os.environ.get("PORT", 8000))  # Default to 8000 for Render.com
+#PORT = int(os.environ.get("PORT", 8000))  # Default to 8000 for Render.com
 
 # Additional configuration for deployment
-WEBHOOK = os.environ.get("WEBHOOK", "False").lower() == "true"
+#WEBHOOK = os.environ.get("WEBHOOK", "False").lower() == "true"
